@@ -1,5 +1,8 @@
 import AttractiveForce from './lib/index.js';
 
-let container = document.querySelector('#container');
-
-const AF = new AttractiveForce(container);
+const container = document.querySelector('#container');
+const opts = {
+    count: 100,
+    color: '0, 0, 0'
+}
+const AF = new AttractiveForce(container, opts);

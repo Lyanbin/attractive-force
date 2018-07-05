@@ -2,9 +2,10 @@
   "name": "attractive-force",
   "version": "1.0.0",
   "description": "a canvas attractive force toy",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build lib/index.js -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +20,7 @@
   },
   "homepage": "https://github.com/Lyanbin/attractive-force#readme",
   "dependencies": {
-    "parcel-bundler": "^1.9.4",
-    "size-sensor": "^0.1.0"
+    "parcel-bundler": "^1.9.4"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0"
