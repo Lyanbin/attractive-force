@@ -1,6 +1,6 @@
 {
   "name": "attractive-force",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a canvas attractive force toy",
   "main": "build/index.js",
   "scripts": {
